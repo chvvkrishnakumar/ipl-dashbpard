@@ -1,0 +1,13 @@
+.latest-main {
+  background-color: rgba(29, 11, 168, 0.5);
+  display: flex;
+  justify-content: space-evenly;
+  color: white;
+  align-items: center;
+  width: 815px;
+  border-radius: 10px;
+}
+.team {
+  height: 200px;
+  border-radius: 10px;
+}

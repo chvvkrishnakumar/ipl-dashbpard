@@ -1,0 +1,21 @@
+/* Write your CSS here */
+.team-card {
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+  width: 500px;
+  font-size: 30px;
+  background-color: rgba(245, 236, 236, 0.15);
+  color: #fff;
+  margin: 10px;
+  border-radius: 20px;
+}
+.team-logo {
+  height: 100px;
+  margin: 20px;
+}
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

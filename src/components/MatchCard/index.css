@@ -1,0 +1,22 @@
+/* Write your CSS here */
+li {
+  list-style-type: none;
+}
+.match-card {
+  background-color: rgba(14, 8, 8, 0.8);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 230px;
+  margin: 10px;
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px;
+}
+.status {
+  background-color: rgb(141, 83, 207);
+  padding: 5px;
+  border-radius: 5px;
+}

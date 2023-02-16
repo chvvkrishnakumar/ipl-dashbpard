@@ -1,0 +1,9 @@
+/* Write your CSS here */
+.team-banner {
+  height: 300px;
+}
+.match-details {
+  width: 815px;
+  display: flex;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,22 @@
+/* Write your CSS here */
+.title-logo {
+  display: flex;
+  justify-content: center;
+}
+.logo {
+  height: 60px;
+  margin: 10px;
+}
+.main-home {
+  color: white;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-lg-bg.png');
+  height: auto;
+  background-size: cover;
+  text-align: center;
+  font-family: Bree Serif;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
