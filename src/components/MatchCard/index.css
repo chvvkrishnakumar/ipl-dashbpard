@@ -16,7 +16,8 @@ li {
   padding: 10px;
 }
 .status {
-  background-color: rgb(141, 83, 207);
-  padding: 5px;
-  border-radius: 5px;
+  color: rgb(41, 107, 41);
+}
+.lost {
+  color: red;
 }

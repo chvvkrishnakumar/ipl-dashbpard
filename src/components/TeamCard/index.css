@@ -19,3 +19,11 @@ ul {
   flex-wrap: wrap;
   justify-content: center;
 }
+@media (max-width: 716px) {
+  .team-card {
+    width: 400px;
+    font-size: larger;
+    flex-wrap: wrap;
+    background-size: cover;
+  }
+}

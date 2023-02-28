@@ -61,31 +61,33 @@ class TeamMatches extends Component {
     const {teamBannerUrl, latestMatchDetails, recentMatches} = detail
     console.log(detail)
     return (
-      <div className="main-home">
-        {isLoading ? (
-          // eslint-disable-next-line react/no-unknown-property
-          <div testid="loader">
-            <Loader type="TailSpin" color="#00BFFF" height={50} width={50} />
-          </div>
-        ) : (
-          <div>
-            <img
-              className="team-banner"
-              src={teamBannerUrl}
-              alt="team banner"
-            />
-            <div>
-              {latestMatchDetails.map(each => (
-                <LatestMatch matchDetails={each} key={each.id} />
-              ))}
+      <div className="team-home">
+        <div>
+          {isLoading ? (
+            // eslint-disable-next-line react/no-unknown-property
+            <div testid="loader">
+              <Loader type="TailSpin" color="#00BFFF" height={50} width={50} />
             </div>
-            <ul className="match-details">
-              {recentMatches.map(each => (
-                <MatchCard details={each} key={each.id} />
-              ))}
-            </ul>
-          </div>
-        )}
+          ) : (
+            <div>
+              <img
+                className="team-banner"
+                src={teamBannerUrl}
+                alt="team banner"
+              />
+              <div>
+                {latestMatchDetails.map(each => (
+                  <LatestMatch matchDetails={each} key={each.id} />
+                ))}
+              </div>
+              <ul className="match-details">
+                {recentMatches.map(each => (
+                  <MatchCard details={each} key={each.id} />
+                ))}
+              </ul>
+            </div>
+          )}
+        </div>
       </div>
     )
   }

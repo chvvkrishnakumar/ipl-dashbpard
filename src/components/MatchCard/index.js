@@ -19,7 +19,8 @@ const MatchCard = props => {
       />
       <p>{competingTeam}</p>
       <p>{result}</p>
-      <p className="status">{matchStatus}</p>
+
+      <p className={matchStatus === 'Won' ? 'status' : 'lost'}>{matchStatus}</p>
     </li>
   )
 }

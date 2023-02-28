@@ -7,3 +7,18 @@
   display: flex;
   flex-wrap: wrap;
 }
+.team-home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(
+    red,
+    orange,
+    yellow,
+    lightpink,
+    lightblue,
+    blue
+  );
+  background-size: cover;
+  min-width: 815px;
+}
